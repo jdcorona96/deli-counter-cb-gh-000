@@ -1,7 +1,7 @@
 # Write your code here.
 def line(customers)
   if customers.empty?
-    "The line is currently empty."
+    puts "The line is currently empty."
   else
     nil
   end
