@@ -3,10 +3,11 @@ def line(customers)
   if customers.empty?
     puts "The line is currently empty."
   else
-    puts "The line is currently:"
+    ret = "The line is currently:"
     customers.each_with_index do |customer, number|
-      puts " #{number+1}. #{customer}"
+      ret += " #{number+1}. #{customer}"
     end
+    puts ret
   end
 end
 
