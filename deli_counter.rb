@@ -1,8 +1,5 @@
 # Write your code here.
-
-katz_deli = []
-
-def line(customers) 
+def line(customers)
   if costumers.empty?
     "The line is currently empty."
   else
