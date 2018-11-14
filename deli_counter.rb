@@ -3,7 +3,12 @@ def line(customers)
   if customers.empty?
     puts "The line is currently empty."
   else
-    nil
+
+    print "The line is currently:"
+    customers.each_with_index do |customer, number|
+      print " #{number+1}. #{customer}"
+    end
+    print "\n"
   end
 end
 
